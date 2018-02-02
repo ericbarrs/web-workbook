@@ -1,0 +1,100 @@
+html{
+  background-color: rgba(220,120,5,0.8)
+}
+header{
+  height: 20px 20px;
+}
+nav{
+background-color: rgb(100,160,0);
+width: auto;
+height: 40px;
+/* border: 3px solid gray; */
+}
+nav a{
+  font-family: 'Oswald', sans-serif;
+  float: right;
+  margin-left: 5%;
+  font-size: 20px;
+}
+h1 {
+  font-family: 'Rammetto One', cursive;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 30px;
+}
+main{
+  /* border: 1px solid black; */
+}
+.container{
+  box-sizing: border-box;
+  display: flex;
+  /* border: 1px solid orange; */
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.picture{
+  background: rgba(200,100,5,0.3);
+  text-align: center;
+  margin: 0 5% 0 10%;
+  padding: 5%;
+  height: auto;
+  width: 35%;
+  /* border: 2px dotted black; */
+
+}
+.picture a img {
+  border-radius: 100% !important;
+  border-radius:  20%;
+  border: 2px dotted black;
+  width: 150px;
+  height: auto;
+}
+h2 {
+    font-family: 'Rammetto One', cursive;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  ul{
+    padding: 0px;
+    margin: 0 auto;
+  }
+  ul > li {
+      text-shadow: 1px 1px gray;
+      font-family: 'Rammetto One', cursive;
+      text-align: center;
+      list-style-type: none;
+
+  }
+#sidebar{
+padding:  3%;
+margin-top: 10px;
+/* border: 1px dotted blue; */
+width: 30%;
+float: left;
+}
+h3{
+  font-family: 'Rammetto One', cursive;
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+h4 {
+  font-family: 'Rammetto One', cursive;
+  font-size: 20px;
+ margin-top: 0px;
+  text-align: center;
+}
+aside > p{
+  font-family: 'Roboto Slab', serif;
+  font-size: 15px;
+  text-align: left;
+}
+
+aside > p:hover{
+  font-size:25px;
+}
+ h4:hover{
+  font-size: 25px;
+ }
