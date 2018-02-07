@@ -1,0 +1,198 @@
+html{
+  background-image: url(https://raw.githubusercontent.com/AustinCodingAcademy/ciw-workbook/master/Week-3/Team-Project-3/airline.jpg);
+  background-size: cover;
+  font-family: 'Karla', sans-serif;
+}
+nav {
+  display: inline-flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  right: 0;
+  color: white;
+  width: 100%;
+  height: 100px;
+  background-color: rgb(25,58,85);
+  border-bottom: 2px solid rgb(177,188,197);
+}
+.company{
+  margin-left: 1%;
+  width: 50%;
+  height: 100%;
+}
+.links{
+  text-align: right;
+  margin-top: 2%;
+  margin-right: 10%;
+  width: 50%;
+  height: 100%;
+}
+.company img{
+  font-size: 0px;
+margin-left: 25%;
+}
+nav a{
+  margin-left: 5%;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  box-sizing: border-box;
+}
+nav a:hover{
+  color: lightgreen;
+}
+.container{
+  box-sizing: border-box;
+  justify-content: center;
+  background-color: rgb(18,55,84);
+  width: 28%;
+  height: 50%;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
+.selection {
+  height: 5%;
+  font-size: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+.selection div {
+  width: 33.3%;
+  display: inline-flex;
+  justify-content: center;
+}
+.airplane{
+  background-color: rgb(0,99,183);
+  width: 33.3%;
+  height: 50px;
+}
+.bed {
+  background-color: rgb(1,141,128);
+  width: 33.3%;
+  height: 50px;
+}
+.car {
+  background-color: rgb(1,141,128);
+  width: 33.3%;
+  height: 50px;
+}
+.departArrive {
+  display: inline-flex;
+  justify-content: center;
+  box-sizing: border-box;
+  margin-top: 15%;
+  width: 100%;
+  height: 20%;
+}
+.depart input{
+  margin-left: 5%;
+  color: rgb(177,188,197);
+  font-size: 18px;
+  width: 65%;
+  background-color: rgb(18,55,84);
+  border: 3px solid white;
+  border-radius: 5px;
+  padding: 15px;
+}
+.arrive input{
+  margin-left: 5%;
+  color: rgb(177,188,197);
+  font-size: 18px;
+  width: 65%;
+  background-color: rgb(18,55,84);
+  border: 3px solid white;
+  border-radius: 5px;
+  padding: 15px;
+}
+.dateBox {
+  background-color: yellow;
+  display: block;
+  justify-content: center;
+  min-width: 50%;
+  max-width: 100%;
+  height: auto;
+  padding: 0%;
+}
+.dateDepart input{
+  color: rgb(177,188,197);
+  margin-left: 5%;
+  font-size: 18px;
+  float: left;
+  min-width: auto;
+  height: auto;
+  color: white;
+  background-color: rgb(18,55,84);
+  border: 3px solid white;
+  border-radius: 5px;
+  padding: 1%;
+}
+.dateArrive input{
+  margin-left: 11%;
+  color: rgb(177,188,197);
+  font-size: 18px;
+  float: left;
+  width: auto;
+  height: auto;
+  color: white;
+  background-color: rgb(18,55,84);
+  border: 3px solid white;
+  border-radius: 5px;
+  padding: 1%;
+}
+.search{
+  display: inline-flex;
+  justify-content: center;
+  box-sizing: border-box;
+  margin-top: 0%;
+  width: 100%;
+  height: 20%;
+}
+.search input {
+  width: 90%;
+  height: 50%;
+  background-color: rgb(0,99,183);
+  border: none;
+  border-radius: 3px;
+}
+.selector{
+  display: inline-flex;
+  margin-top: 5%;
+  width: 100%;
+  height: 20%;
+}
+.passengers{
+  margin-top: 2%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+h2{
+  color: white;
+  margin: 0 0 0 0;
+}
+.dropdown select{
+  text-align-last: center;
+  border: 2px solid white;
+  color: white;
+  background-color: rgb(18,55,84);
+  width: 60px;
+  height: 50px;
+}
+.dropdown option{
+  text-align-last: center;
+  background-color: rgb(18,55,84);
+}
+.radio{
+
+  font-size: 20px;
+  position: absolute;
+  top:60%;
+  left: 52%;
+  width: 55%;
+  height: 10%;
+}
+.radio label{
+  color: white;
+  padding: 3%;
+}
