@@ -1,0 +1,34 @@
+.Container > div{
+  width: 50px;
+  height: 50px;
+  margin: 10px auto;
+  background-color: black;
+  /* transition moves the item back to the its orignal position.
+  ease-in-out lets the item move in and out smoother */
+  transition: 2s ease-in-out;
+}
+.Container{
+  width: 25%;
+  height: auto;
+  margin: 0 auto;
+  /* background-color: orange; */
+}
+/* this text selects container then hover is executed
+ and the > applies sto everything after it */
+.Container:hover > div:nth-child(odd){
+background-color: green;
+/* scale change the size, translate moves the position and rotate turns the item */
+transform: scale(1.5) translate(200px, 20px) rotate(720deg);
+/* transition-delay tells when over hold long it take to transition  */
+transition-duration: 3s;
+}
+/* this text selects container then hover is executed
+ and the > applies sto everything after it */
+.Container:hover > div:nth-child(even){
+background-color: magenta;
+/* scale change the size, translate moves the position and rotate turns the item */
+transform: scale(.5) translate(-600px) rotate(-720deg);
+/* transition-delay tells when over hold long it take to transition  */
+transition-duration: 5s;
+
+}
