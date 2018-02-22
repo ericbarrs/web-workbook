@@ -1,0 +1,82 @@
+.Box1{
+  grid-area: one;
+  background-color: pink;
+}
+.Box2{
+  grid-area: two;
+  background-color: orange;
+}
+.Box3{
+  grid-area: three;
+  background-color: green;
+}
+.Box4{
+  grid-area: four;
+  background-color: teal;
+}
+.Box5{
+  grid-area: five;
+  background-color: purple;
+}
+.Box6{
+  grid-area: six;
+  background-color: magenta;
+}
+.Box7{
+  grid-area: seven;
+  background-color: lightblue;
+}
+.Box8{
+  grid-area: eight;
+  background-color: red;
+}
+.Box9{
+  grid-area: nine;
+  background-color: yellow;
+}
+.Box10{
+  grid-area: ten;
+  background-color: brown;
+}
+
+.gridContainer{
+  display: grid;
+  grid-template-areas:
+  'one one two two'
+  'three three four five'
+  'three three four five'
+  'three three six six'
+  'seven eight nine ten';
+  grid-gap: 1em;
+ }
+ @media (max-width: 900px) {
+   .gridContainer{
+     grid-template-areas:
+     'one one'
+     'one one'
+     'one one'
+     'two three'
+     'four four'
+     'five five'
+     'five five'
+     'five five'
+     'six seven'
+     'eight eight'
+     'nine ten';
+   }
+   @media (max-width: 400px) {
+     .gridContainer{
+       grid-template-areas:
+        'one'
+        'two'
+        'three'
+        'four'
+        'five'
+        'six'
+        'seven'
+        'eight'
+        'nine'
+        'ten';
+          }
+   }
+ }
