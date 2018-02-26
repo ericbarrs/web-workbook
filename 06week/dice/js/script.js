@@ -92,7 +92,7 @@ document.getElementById("report").innerHTML += "!!!!!Yacht!!!!! Five "+moreThanT
 
 // two of dice have the same points, like 3 6 5 6 1 - called pair: example solved for you. Complete the other cases below:
 else  if(pair ===1 && (fullHouse === false)){
-document.getElementById("report").innerHTML += "There are a pair of "+pairOne+"s<br>"; // if yes, we report a pair
+document.getElementById("report").innerHTML += "There are a pair of "+pairOne+"s<br>"; // if yes, we report a pair 
 }
 // two pairs at once, like 3 6 5 3 5 - called two-pairs;
 else if(pair ===2){
